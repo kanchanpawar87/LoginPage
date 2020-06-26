@@ -12,7 +12,8 @@ public class Loginpage {
 		
 	// Admin >> User Management >> Ports
 		
-			System.setProperty("webdriver.chrome.driver", "E:\\Jibeworkspace\\src\\main\\resources\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver", "E:\\Jibeworkspace\\src\\main\\resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "/Test/src/main/resources/chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
